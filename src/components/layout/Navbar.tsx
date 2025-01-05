@@ -17,7 +17,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-20">
           <a href="#" className="text-2xl font-bold text-yellow-600">
-            PropLit
+          PropLit Consulting
           </a>
 
           {/* Desktop Navigation */}
