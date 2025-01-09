@@ -7,11 +7,11 @@ export default function About() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <img
-              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80"
-              alt="Sarah Mqadi"
-              className="rounded-lg shadow-xl w-full"
-            />
+          <img
+  src="https://images.unsplash.com/photo-1573164574001-518958d9baa2?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  alt="Alternative Image Description"
+  className="rounded-lg shadow-xl w-full"
+/>
           </div>
           
           <div>

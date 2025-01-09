@@ -26,15 +26,14 @@ export default function Hero() {
           <span className="block mb-2">Champions of Growth</span>
           <span className="block text-yellow-400">Advocates for Empowerment</span>
         </h1>
-        
         <p className="text-xl md:text-2xl text-center max-w-3xl mx-auto mb-8 text-gray-200">
-          PropLit Consulting: Your partner in skills development, project management, and business startup support.
+          Asiqubekanga,asicaphunanga,saqala phansi ~ Lungisani Mjaji
+        </p>
+        <p className="text-xl md:text-2xl text-center max-w-3xl mx-auto mb-8 text-gray-200">
+          PropLit Consulting: Your partner in inclusive education and holistic learning.
         </p>
 
-        <Button>
-          Get Started
-          <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-        </Button>
+       
       </div>
     </div>
   );
