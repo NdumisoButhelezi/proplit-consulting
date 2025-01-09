@@ -18,8 +18,8 @@ export default function About() {
             <h2 className="text-4xl font-bold mb-6">About PropLit Consulting</h2>
             
             <blockquote className="border-l-4 border-emerald-500 pl-4 mb-8 italic text-xl text-gray-600">
-              "Every individual deserves opportunities to unlock their true potential."
-              <footer className="text-sm font-semibold mt-2">- Sarah Mqadi, Director</footer>
+              "Asiqubekanga,asicaphunanga,saqala phansi"
+              <footer className="text-sm font-semibold mt-2">- Lungisani Mjaji</footer>
             </blockquote>
             
             <p className="text-gray-600 mb-8">
