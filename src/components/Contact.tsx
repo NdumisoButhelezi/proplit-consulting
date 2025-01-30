@@ -17,7 +17,7 @@ export default function Contact() {
                   <Phone className="w-6 h-6 text-emerald-500" />
                   <div>
                     <p className="font-semibold">Phone</p>
-                    <p className="text-gray-600">+27 (0) 123 456 789</p>
+                    <p className="text-gray-600">+27 77 405 7331</p>
                   </div>
                 </div>
                 
@@ -25,7 +25,7 @@ export default function Contact() {
                   <Mail className="w-6 h-6 text-emerald-500" />
                   <div>
                     <p className="font-semibold">Email</p>
-                    <p className="text-gray-600">info@proplit.co.za</p>
+                    <p className="text-gray-600">info@proplitconsulting.co.za </p>
                   </div>
                 </div>
                 

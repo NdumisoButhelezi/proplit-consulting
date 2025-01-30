@@ -3,26 +3,39 @@ import { BookOpen, Rocket, ProjectorIcon, Users } from 'lucide-react';
 
 const services = [
   {
-    title: 'Skills Development',
-    description: 'Comprehensive training programs, content development, and career path guidance tailored to your needs.',
+    title: 'Learning & Skills Development Practices',
+    description: (
+      <ul className="list-disc pl-5 space-y-2">
+        <li>Learning Needs Analysis & Content Design and Development</li>
+        <li>Career and Learning Paths Development</li>
+        <li>Facilitation | Mentoring | Coaching | Moderating | Assessing</li>
+        <li>Occupationally-directed Workshop Planning & Delivery</li>
+      </ul>
+    ),
     icon: BookOpen,
     color: 'bg-blue-500'
   },
   {
     title: 'Business Startup Support',
-    description: 'Expert guidance in funding applications, compliance requirements, and marketing strategies.',
+    description: 'Co Registrations | Compliance | Business Plans | Funding Proposals | Marketing Strategies (Storytelling)',
     icon: Rocket,
     color: 'bg-emerald-500'
   },
   {
     title: 'Project Management',
-    description: 'Specialized projects focusing on youth, women, and rural community development.',
+    description: ' Proof of Concepts, Special Projects (Rural, School & Community Projects)',
     icon: ProjectorIcon,
     color: 'bg-purple-500'
   },
   {
-    title: 'Community Programs',
-    description: 'Digital literacy, homeownership programs, and leadership training initiatives.',
+    title: 'Collaborative & Other Programmes',
+    description: 'Financial Literacy & Digital literacy, homeownership programs, and leadership training initiatives.',
+    icon: Users,
+    color: 'bg-orange-500'
+  },
+  {
+    title: 'Education Support',
+    description: 'Remedial Services - Maths | EMS | Physics | Accounting | English. Learner Profiling | Subject Choice Workshops | School Governance & Management Workshops',
     icon: Users,
     color: 'bg-orange-500'
   }

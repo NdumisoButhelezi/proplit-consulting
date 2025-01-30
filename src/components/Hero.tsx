@@ -28,10 +28,8 @@ export default function Hero() {
         </h1>
       
         <p className="text-xl md:text-2xl text-center max-w-3xl mx-auto mb-8 text-gray-200">
-          PropLit Consulting: Your partner in inclusive education and holistic learning.
-        </p>
-
-       
+          PropLit Consulting: Knowledge | Purpose | Access.
+        </p>    
       </div>
     </div>
   );

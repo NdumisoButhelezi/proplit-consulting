@@ -24,6 +24,7 @@ export default function About() {
             
             <p className="text-gray-600 mb-8">
               PropLit Consulting is a 100% black female-owned business dedicated to transforming communities through knowledge, purpose, and access. Under the leadership of Sarah Mqadi, we've established ourselves as a leading force in skills development and business empowerment.
+              At the heart of everything we do is a sense of purpose - a commitment to making a positive impact on the lives of others. Whether it's helping individuals achieve their homeownership dreams or guiding organisations toward their strategic objectives, we are driven by a shared purpose to create meaningful & impactful change in the world.
             </p>
             
             <div className="space-y-4">

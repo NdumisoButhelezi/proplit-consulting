@@ -4,12 +4,12 @@ import { Users, Briefcase, Award } from 'lucide-react';
 const stats = [
   {
     icon: Users,
-    value: '500+',
+    value: '150+',
     label: 'Learners Trained',
   },
   {
     icon: Briefcase,
-    value: '200+',
+    value: '150+',
     label: 'Businesses Supported',
   },
   {
