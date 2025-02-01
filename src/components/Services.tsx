@@ -3,38 +3,39 @@ import { BookOpen, Rocket, ProjectorIcon, Users } from 'lucide-react';
 
 const services = [
   {
-    title: 'WSP/ATR Learning & Skills Development Practices',
+    title: 'Learning & Skills Development Practices',
     description: (
       <ul className="list-disc pl-5 space-y-2">
         <li>Learning Needs Analysis & Content Design and Development</li>
         <li>Career and Learning Paths Development</li>
         <li>Facilitation | Mentoring | Coaching | Moderating | Assessing</li>
         <li>Occupationally-directed Workshop Planning & Delivery</li>
+        <li>WSP/ATR Reporting(All sectors)</li>
       </ul>
     ),
     icon: BookOpen,
     color: 'bg-blue-500'
   },
   {
-    title: 'WSP/ATR Business Startup Support',
+    title: ' Business Startup Support',
     description: 'Co Registrations | Compliance | Business Plans | Funding Proposals | Marketing Strategies (Storytelling)',
     icon: Rocket,
     color: 'bg-emerald-500'
   },
   {
-    title: 'WSP/ATR Project Management',
+    title: 'Project Management',
     description: ' Proof of Concepts, Special Projects (Rural, School & Community Projects)',
     icon: ProjectorIcon,
     color: 'bg-purple-500'
   },
   {
-    title: 'WSP/ATR Financial Literacy & Digital Literacy',
+    title: 'Financial Literacy & Digital Literacy',
     description: 'Financial Literacy & Digital literacy, homeownership programs, and leadership training initiatives.',
     icon: Users,
     color: 'bg-orange-500'
   },
   {
-    title: 'WSP/ATR Education Support',
+    title: 'Education Support',
     description: 'Remedial Services - Maths | EMS | Physics | Accounting | English. Learner Profiling | Subject Choice Workshops | School Governance & Management Workshops',
     icon: Users,
     color: 'bg-orange-500'
