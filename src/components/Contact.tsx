@@ -33,7 +33,7 @@ export default function Contact() {
                   <MapPin className="w-6 h-6 text-emerald-500" />
                   <div>
                     <p className="font-semibold">Location</p>
-                    <p className="text-gray-600">Johannesburg, South Africa</p>
+                    <p className="text-gray-600">Johannesburg & KZN South Africa</p>
                   </div>
                 </div>
               </div>

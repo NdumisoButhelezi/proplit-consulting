@@ -1,14 +1,13 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  // Tell Vite that your index.html and source files are in the `src` folder.
+  // Tell Vite to use the "src" folder as the root
   root: 'src',
   plugins: [react()],
-  base: '/', // Use the root path for asset references
+  base: '/', // Ensures that asset URLs are absolute (e.g., "/assets/...")
   build: {
-    // Output the production build to a folder named "dist" at the project root
+    // Output the build to a folder named "dist" at the project root (one level up)
     outDir: '../dist',
     emptyOutDir: true,
   },

@@ -29,7 +29,7 @@ const services = [
     color: 'bg-purple-500'
   },
   {
-    title: 'Financial Literacy & Digital Literacy',
+    title: 'Collaborative programmes',
     description: 'Financial Literacy & Digital literacy, homeownership programs, and leadership training initiatives.',
     icon: Users,
     color: 'bg-orange-500'
