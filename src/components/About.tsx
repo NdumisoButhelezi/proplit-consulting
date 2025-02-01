@@ -18,7 +18,7 @@ export default function About() {
             <h2 className="text-4xl font-bold mb-6">About PropLit Consulting</h2>
             
             <blockquote className="border-l-4 border-emerald-500 pl-4 mb-8 italic text-xl text-gray-600">
-              "Asiqubekanga,asicaphunanga,saqala phansi"
+              "Asiqhubekanga,asicaphunanga,saqala phansi"
               <footer className="text-sm font-semibold mt-2">- Lungisani Mjaji</footer>
             </blockquote>
             
