@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/proplit-consulting/', // Update this to match your repository name
+  base: '/', // Serve from the root on Vercel
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
