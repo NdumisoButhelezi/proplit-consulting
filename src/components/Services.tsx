@@ -1,16 +1,16 @@
 import React from 'react';
-import { BookOpen, Rocket, ProjectorIcon, Users } from 'lucide-react';
+import { BookOpen, Rocket, ProjectorIcon, Users, BookDashedIcon } from 'lucide-react';
 
 const services = [
   {
     title: 'Learning & Skills Development Practices',
     description: (
       <ul className="list-disc pl-5 space-y-2">
+         <li>WSP/ATR Reporting(All sectors)</li>
         <li>Learning Needs Analysis & Content Design and Development</li>
         <li>Career and Learning Paths Development</li>
         <li>Facilitation | Mentoring | Coaching | Moderating | Assessing</li>
         <li>Occupationally-directed Workshop Planning & Delivery</li>
-        <li>WSP/ATR Reporting(All sectors)</li>
       </ul>
     ),
     icon: BookOpen,
@@ -18,26 +18,49 @@ const services = [
   },
   {
     title: ' Business Startup Support',
-    description: 'Co Registrations | Compliance | Business Plans | Funding Proposals | Marketing Strategies (Storytelling)',
+    description:(
+      <ul className='list-disc pl-5 space-y-2'>
+        <li>Co Registrations | Compliance</li>
+        <li> Business Plans | Funding Proposals </li>
+        <li>Marketing Strategies (Storytelling)</li>
+      </ul>
+
+    ) ,
     icon: Rocket,
     color: 'bg-emerald-500'
   },
   {
     title: 'Project Management',
-    description: ' Proof of Concepts, Special Projects (Rural, School & Community Projects)',
+    description:(
+      <ul className ='list-disc pl-5 space-y-2'>
+        <li>Proof of Concepts</li>
+        <li>Special Projects (Rural, School & Community Projects)</li>
+      </ul>
+    ),
     icon: ProjectorIcon,
     color: 'bg-purple-500'
   },
   {
     title: 'Collaborative programmes',
-    description: 'Financial Literacy & Digital literacy, homeownership programs, and leadership training initiatives.',
+    description: (
+      <ul className ='list-disc pl-5 space-y-2'>
+        <li>Financial Literacy & Digital literacy,</li>
+        <li>Homeownership programs, and leadership training initiatives</li>
+      </ul>
+    ),
     icon: Users,
     color: 'bg-orange-500'
   },
   {
     title: 'Education Support',
-    description: 'Remedial Services - Maths | EMS | Physics | Accounting | English. Learner Profiling | Subject Choice Workshops | School Governance & Management Workshops',
-    icon: Users,
+    description: (
+      <ul className ='list-disc pl-5 space-y-2'>
+        <li>Remedial Services - Maths | EMS | Physics | Accounting | English</li>
+        <li>Learner Profiling | Subject Choice Workshops</li>
+        <li>School Governance & Management Workshops</li>
+      </ul>
+    ), 
+    icon: BookDashedIcon,
     color: 'bg-orange-500'
   }
 ];

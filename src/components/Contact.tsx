@@ -74,6 +74,13 @@ export default function Contact() {
           </div>
         </div>
       </div>
+      <footer className="py-6 bg-gray-100 mt-20">
+        <div className="container mx-auto px-4">
+          <p className="text-center text-gray-600">
+            Powered by <span className="font-semibold text-emerald-600">Blipp</span>
+          </p>
+        </div>
+      </footer>
     </section>
   );
 }

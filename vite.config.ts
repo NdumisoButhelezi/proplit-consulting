@@ -7,9 +7,9 @@ export default defineConfig({
   plugins: [react()],
   base: '/', // Ensures that asset URLs are absolute (e.g., "/assets/...")
   build: {
-    // Output the build to a folder named "dist" at the project root (one level up)
-    outDir: '../dist',
-    emptyOutDir: true,
+    // Output the build to the "public_html" directory on your server
+    outDir: '../public_html', // Adjust this path to match your server's public_html directory
+    emptyOutDir: true, // Clears the output directory before building
   },
   optimizeDeps: {
     exclude: ['lucide-react'],
