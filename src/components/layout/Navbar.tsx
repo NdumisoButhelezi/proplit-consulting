@@ -9,6 +9,8 @@ const navItems = [
   { label: 'Contact', href: '#contact' },
 ];
 
+const logoURL = "https://i.ibb.co/GfMnHsfD/Whats-App-Image-2025-02-03-at-12-08-09-c5247c3b.jpg";
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -16,11 +18,13 @@ export default function Navbar() {
     <nav className="fixed w-full bg-white/95 backdrop-blur-sm shadow-md z-50">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-20">
-          <a href="#" className="text-2xl font-bold text-yellow-600">
-          PropLit Consulting
+          <a href="#" className="flex items-center">
+            <img src={logoURL} alt="PropLit Consulting Logo" className="h-12 mr-2" />
+            <span className="text-2xl font-bold text-yellow-600">
+              PropLit Consulting
+            </span>
           </a>
 
-          {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
             {navItems.map((item) => (
               <a
@@ -33,7 +37,6 @@ export default function Navbar() {
             ))}
           </div>
 
-          {/* Mobile Menu Button */}
           <button
             className="md:hidden"
             onClick={() => setIsOpen(!isOpen)}
@@ -42,7 +45,6 @@ export default function Navbar() {
           </button>
         </div>
 
-        {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden py-4">
             {navItems.map((item) => (

@@ -55,7 +55,7 @@ const services = [
     title: 'Education Support',
     description: (
       <ul className ='list-disc pl-5 space-y-2'>
-        <li>Remedial Services - Maths | EMS | Physics | Accounting | English</li>
+        <li>Remedial/Intervention Classes - Maths | EMS | Physics | Accounting | English</li>
         <li>Learner Profiling | Subject Choice Workshops</li>
         <li>School Governance & Management Workshops</li>
       </ul>

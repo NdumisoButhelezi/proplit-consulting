@@ -8,15 +8,7 @@ export default function Hero() {
       {/* Video Background */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute inset-0 bg-black/70 z-10" /> {/* Darkened overlay */}
-        <iframe 
-          width="100%" 
-          height="100%" 
-          src="https://www.youtube.com/embed/-_7uaFmzYE0?si=5BqXXzPdynPMZ6J8&autoplay=1&mute=1&loop=1&playlist=-_7uaFmzYE0" 
-          title="YouTube video player" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          className="w-full h-full object-cover"
-          style={{ border: 'none', pointerEvents: 'none' }}
-        ></iframe>
+    
       </div>
 
       {/* Content */}
